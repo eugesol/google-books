@@ -20,7 +20,7 @@ app.use(routes);
 mongoose
   .connect(
     process.env.MONGODB_URI ||
-      "mongodb://localhost/googlebooks",
+      "mongodb+srv://db_user13:db_user13@cluster0.xk40i.mongodb.net/googleb?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
